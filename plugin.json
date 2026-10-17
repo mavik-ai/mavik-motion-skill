@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mavik-motion-skill",
+  "version": "1.2.0",
+  "description": "Direção audiovisual com pré-briefing obrigatório e produção Remotion + GSAP + Three.js, QA e áudio.",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

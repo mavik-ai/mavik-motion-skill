@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width,initial-scale=1" />
+ <title>MAVIK Motion | Demo 8s</title>
+ <!-- Para ambientes offline, instalar/servir GSAP localmente. Referência externa exige acesso permitido. -->
+ <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+ <style>
+ * { box-sizing: border-box; }
+ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#000; color:#fff; }
+ #root { position:relative; width:100%; height:100%; overflow:hidden; background:#000; font-family:Inter,Arial,Helvetica,sans-serif; }
+ .frame {position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:90px;}
+ .panel {width:100%;max-width:910px;position:relative;}
+ .eyebrow {font-size:30px;font-weight:700;letter-spacing:0.28em;color:#CFFF3D;margin-bottom:34px;}
+ .headline {font-size:128px;line-height:0.99;letter-spacing:-0.055em;font-weight:900;overflow-wrap:anywhere;}
+ .subtitle {color:#B8B8B2;font-size:40px;margin-top:55px;}
+ .bar {width:235px;height:8px;background:#CFFF3D;margin-bottom:95px;transform-origin:left center;}
+ .brand {position:absolute;left:90px;bottom:220px;color:#B8B8B2;font-size:25px;letter-spacing:.14em;}
+ .line {position:absolute;left:0;right:0;bottom:185px;height:2px;background:#222;}
+ #highlight {color:#CFFF3D;}
+ </style>
+</head>
+<body>
+ <div id="root" data-composition-id="mavik-demo" data-start="0" data-width="1080" data-height="1920" data-duration="8">
+  <section class="clip" data-start="0" data-duration="8" data-track-index="0" style="position:absolute;inset:0;">
+   <div class="frame" id="scene1"><div class="panel"><div class="bar" id="bar1"></div><div class="eyebrow">MAVIK / MOTION</div><div class="headline">UMA<br>IDEIA.</div><div class="subtitle">Cada frame importa.</div></div></div>
+   <div class="frame" id="scene2"><div class="panel"><div class="bar" id="bar2"></div><div class="eyebrow">KINETIC EDITORIAL</div><div class="headline">VIRA<br><span id="highlight">MOVIMENTO.</span></div><div class="subtitle">Ritmo, hierarquia, direção.</div></div></div>
+   <div class="frame" id="scene3"><div class="panel"><div class="bar" id="bar3"></div><div class="eyebrow">DIREÇÃO CRIATIVA</div><div class="headline">CONTA<br>UMA HISTÓRIA.</div><div class="subtitle">MAVIK Motion Skill</div></div></div>
+   <div class="brand">MAVIK AI SOLUTIONS</div><div class="line"></div>
+  </section>
+ </div>
+ <script>
+  // Seek-friendly GSAP. Nunca chamar play() no render, HyperFrames controla tempo.
+  const tl=gsap.timeline({paused: true});
+  tl.set(['#scene1','#scene2','#scene3'],{autoAlpha:0});
+  tl.fromTo('#scene1',{autoAlpha:0,y:100},{autoAlpha:1,y:0,duration:.6,ease:'power3.out'},0);
+  tl.fromTo('#bar1',{scaleX:0},{scaleX:1,duration:.55,ease:'power3.out'},0.15);
+  tl.to('#scene1',{y:-120,autoAlpha:0,duration:.45,ease:'power2.in'},2.25);
+  tl.fromTo('#scene2',{autoAlpha:0,x:220},{autoAlpha:1,x:0,duration:.55,ease:'power3.out'},2.55);
+  tl.fromTo('#bar2',{scaleX:0},{scaleX:1,duration:.5,ease:'power3.out'},2.7);
+  tl.to('#scene2',{scale:1.15,autoAlpha:0,duration:.45,ease:'power2.in'},4.95);
+  tl.fromTo('#scene3',{autoAlpha:0,y:140,scale:.95},{autoAlpha:1,y:0,scale:1,duration:.6,ease:'power3.out'},5.22);
+  tl.fromTo('#bar3',{scaleX:0},{scaleX:1,duration:.55,ease:'power3.out'},5.33);
+  tl.to({hold:0},{hold:1,duration:1.9},6.1);
+  window.__timelines=window.__timelines||{};
+  window.__timelines["mavik-demo"]=tl;
+ </script>
+</body>
+</html>

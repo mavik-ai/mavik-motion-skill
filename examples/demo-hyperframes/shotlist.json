@@ -1,0 +1,12 @@
+{
+  "project":"Mavik Motion — Demo 8s",
+  "duration":8,
+  "fps":30,
+  "aspect_ratio":"9:16",
+  "cta":"Demonstração técnica de animação",
+  "shots":[
+    {"start":0,"end":2.6,"title":"IDEIA","voiceover":"Uma ideia.","visual":"Texto cinético no centro com gráfico geométrico.","transition":"A barra da composição revela a cartela seguinte."},
+    {"start":2.6,"end":5.2,"title":"MOVIMENTO","voiceover":"Em movimento.","visual":"Tipografia muda de escala e posição.","transition":"A última palavra vira enquadramento da próxima."},
+    {"start":5.2,"end":8,"title":"NARRATIVA","voiceover":"Com direção.","visual":"Composição final tipográfica e assinatura Mavik.","transition":"Encerra em quadro legível."}
+  ]
+}

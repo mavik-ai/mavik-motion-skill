@@ -1,0 +1,28 @@
+{
+  "project":"Metodo IA 10X — Reel cinético narrado",
+  "purpose":"Explicar os 3 pilares e as 7 etapas de forma clara, com cartelas em transição contínua",
+  "brand_file":"brand.json",
+  "duration":60,
+  "fps":30,
+  "resolution":{"width":1080,"height":1920},
+  "aspect_ratio":"9:16",
+  "style":["Kinetic Editorial","Seamless Transitions","Geometric Morphing","Beat Sync"],
+  "voice":"Voz masculina natural em pt-BR, informativa e confiante, sem tom publicitário artificial",
+  "music":"Instrumental eletrônica energética, aproximadamente 120–130 BPM; abaixo da narração, com ducking",
+  "cta":"Siga @rafaeljorge.ai para acompanhar os próximos episódios da série",
+  "shots":[
+    {"start":0,"end":4,"title":"IA NÃO COMEÇA NA FERRAMENTA","voiceover":"Quer usar inteligência artificial para vender melhor? Não comece pelas ferramentas.","visual":"Cartela tipográfica ocupa a tela; FERRAMENTA se fragmenta em letras que escapam.","transition":"Letras convergem e abrem um recorte para a próxima cartela na virada da frase."},
+    {"start":4,"end":8,"title":"MÉTODO IA 10X","voiceover":"Comece pelo negócio. Este é o Método IA dez xis: três pilares, sete etapas.","visual":"Os fragmentos formam 3 blocos-matriz; surgem 7 marcas rítmicas como subtítulos.","transition":"O primeiro bloco se expande preenchendo a tela; cartela morfa para Fundação."},
+    {"start":8,"end":13,"title":"01 POSICIONAMENTO","voiceover":"Primeiro, defina por que sua empresa deve ser escolhida: o posicionamento.","visual":"Palavras sem hierarquia se alinham em uma manchete editorial; foco chega no diferencial.","transition":"A palavra central vira máscara e revela silhuetas abstratas no movimento."},
+    {"start":13,"end":18,"title":"02 PERFIL DE CLIENTE IDEAL","voiceover":"Depois, escolha quem você realmente quer atrair: seu perfil de cliente ideal.","visual":"Recortes gráficos de perfis se deslocam e um ganha ênfase por contraste.","transition":"O perfil escolhido escala e vira unidade de uma matriz de ofertas."},
+    {"start":18,"end":23,"title":"03 MIX DE OFERTAS","voiceover":"Organize ofertas de entrada e a solução principal que seu negócio vai vender.","visual":"Uma peça se desdobra em aquisição e monetização, com ativação opcional discreta.","transition":"Uma seta nascida da oferta vira linha-direção do sistema de aquisição."},
+    {"start":23,"end":26,"title":"PILAR 02 SISTEMAS","voiceover":"Agora transforme essa clareza em sistemas.","visual":"Nova cartela cinética; SISTEMAS desliza sobre a trilha de percurso gerada na cena anterior.","transition":"O S de sistemas vira estrutura do funil; sem tela preta."},
+    {"start":26,"end":31,"title":"04 SISTEMA DE AQUISIÇÃO","voiceover":"Aquisição transforma atenção em pessoas interessadas na sua oferta.","visual":"Miniaturas de conteúdo e publicidade convergem num ponto de entrada mensurável, sem números inventados.","transition":"O lead captado atravessa a moldura e revela uma página de oferta."},
+    {"start":31,"end":36,"title":"05 SISTEMA DE MONETIZAÇÃO","voiceover":"Monetização conecta oferta, página e checkout numa jornada de compra.","visual":"Elementos editoriais se comprimem em três palavras: OFERTA, PÁGINA, CHECKOUT.","transition":"O símbolo de confirmação desdobra-se numa grade temporal de rotina."},
+    {"start":36,"end":42,"title":"06 ROTINA COMERCIAL + CONTEÚDO","voiceover":"Conteúdo e rotina comercial mantêm as ações de vendas organizadas e consistentes.","visual":"Grade de 30 dias entra com ticks sincronizados; títulos ganham funções comerciais.","transition":"A grade se afasta em perspectiva e cada ação vira um nó do sistema."},
+    {"start":42,"end":46,"title":"PILAR 03 ESCALA","voiceover":"Só então chega a escala, com inteligência artificial aplicada.","visual":"Cartela ESCALA emerge dos nós; zoom para dentro do fluxo comercial.","transition":"O ponto central passa a conduzir uma animação de atendimento."},
+    {"start":46,"end":54,"title":"07 IA APLICADA AO NEGÓCIO","voiceover":"A IA apoia processos reais, como atendimento, qualificação e acompanhamento de clientes, com supervisão humana.","visual":"Conversa estilizada se converte em decisões guiadas, next step e revisão humana; sem robô e sem garantias.","transition":"Todas as cartelas se tornam linhas de uma única composição final."},
+    {"start":54,"end":57,"title":"3 PILARES · 7 ETAPAS · 1 MÉTODO","voiceover":"Fundação, sistemas e escala. Tudo conectado.","visual":"Revelação de três faixas em uma composição editorial única, com sete marcadores.","transition":"Pilares se reagrupam em assinatura tipográfica final."},
+    {"start":57,"end":60,"title":"SIGA @RAFAELJORGE.AI","voiceover":"Me siga no Instagram para acompanhar esta série.","visual":"CTA em texto branco e chartreuse sobre fundo preto; manter visível e sem interface concorrente.","transition":"Saída musical pontual; manter CTA legível até o último frame."}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Rafael Jorge / IA 10X",
+  "description": "Exemplo de briefing de marca. Nomes, sinais e identidade pertencem ao respectivo titular; não são transferidos pela licença MIT da skill.",
+  "colors": {"background":"#000000","surface":"#121212","primary_text":"#FFFFFF","secondary_text":"#B8B8B2","accent":"#CFFF3D"},
+  "fonts": {"primary":"Inter","technical":"JetBrains Mono"},
+  "tone":["minimalista","editorial","executivo","claro","energia precisa"],
+  "avoid":["neon","cyberpunk","glitch","efeitos arbitrários","promessas de vendas garantidas"],
+  "social_handle":"@rafaeljorge.ai"
+}

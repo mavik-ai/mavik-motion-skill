@@ -1,0 +1,36 @@
+{
+  "project": "metodo-ia10x-reel",
+  "brand": {
+    "file": "brand.json",
+    "confirmed": true,
+    "source_label": "Design System Rafael Jorge / IA 10X v4 fornecido pelo titular"
+  },
+  "objective": "Apresentar em ate 60 segundos o metodo IA 10X e gerar interesse em acompanhar a serie",
+  "audience": "Empresarios, especialistas e prestadores de servico com oferta real",
+  "key_message": "Primeiro Fundacao, depois Sistemas, finalmente IA aplicada para aumentar capacidade",
+  "platform": "instagram-reels",
+  "format": "9:16",
+  "duration_seconds": 60,
+  "style": "kinetic-editorial + seamless-morphing + beat-sync",
+  "reference_urls": [
+    "https://youtube.com/shorts/Sfv5y_0UBpo"
+  ],
+  "voice": {
+    "mode": "ai",
+    "language": "pt-BR",
+    "provider": "elevenlabs",
+    "approved": true
+  },
+  "music": {
+    "direction": "Eletronica cinematografica animada 124 BPM, volume baixo sob narracao, mudancas em beats relevantes",
+    "rights": "original"
+  },
+  "cta": {
+    "mode": "follow",
+    "text": "Siga @rafaeljorge.ai para acompanhar os proximos episodios desta serie",
+    "destination": "https://instagram.com/rafaeljorge.ai"
+  },
+  "claims_verified": false,
+  "brief_owner": "Rafael Jorge",
+  "approved_at": "2026-10-17"
+}

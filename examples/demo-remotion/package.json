@@ -1,0 +1,19 @@
+{
+  "name": "mavik-motion-remotion-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compositions": "remotion compositions src/index.tsx",
+    "still": "remotion still src/index.tsx DemoMavikMotion out/preview.png --frame=90",
+    "render": "remotion render src/index.tsx DemoMavikMotion out/demo.mp4 --codec=h264 --crf=20"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "remotion": "4.0.535",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "gsap": "3.14.2",
+    "three": "0.180.0"
+  }
+}
